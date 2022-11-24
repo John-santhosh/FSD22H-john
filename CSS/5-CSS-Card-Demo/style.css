@@ -31,6 +31,7 @@ img {
   border: 1px solid #bacdd8;
   padding: 8px;
   border-radius: 12px;
+  margin-top: 20px;
 }
 
 .tag {
@@ -40,4 +41,38 @@ img {
   font-size: 12px;
   font-weight: 600;
   color: #788697;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+p {
+  font-size: 14px;
+  color: #7f8c9b;
+  line-height: 150%;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #07f;
+  background-color: #e0efff;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+.card_details {
+  padding: 16px 8px 8px 8px;
+}
+
+button:focus,
+button:hover {
+  background-color: #07f;
+  color: #e0efff;
 }
