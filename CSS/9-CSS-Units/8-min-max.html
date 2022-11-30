@@ -14,7 +14,27 @@
 
         .navbar {
             background: blue;
+            color: white;
+            height: 6rem;
+            font-size: 3rem;
+            /* 16px x 3 => 48px */
+        }
 
+        .banner {
+            background: red;
+            /* height: calc(100vh - 6rem); */
+            min-height: calc(100vh - 6rem);
+            max-height: 90vh;
+            /* overflow: hidden; */
+            overflow: scroll;
+        }
+
+        .example {
+            background: green;
+            width: 10rem;
+            height: 25rem;
+            overflow: scroll;
+            overflow: hidden;
         }
     </style>
 </head>
