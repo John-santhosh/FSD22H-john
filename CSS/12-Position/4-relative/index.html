@@ -5,39 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="CSS - Position: static">
-    <title>CSS - Position : static</title>
+    <meta name="Description" content="CSS - Position : relative">
+    <title>CSS - Position : relative</title>
     <style>
         /* 
-        Position => Inorder to position/place the html elements in the various places on the browser
-        1. Static => default placement of an element in the browser area
-            position: static; => default value of all the html elements
-        2. Relative
-        3. Absolute
-        4. Fixed
-        5. Sticky
-        
+        position: static; => default position value of all the html elements
+        position: relative; position relative to its normal position
+        // top, bottom, left, right
         */
+
         div {
             border: 3px solid red;
             background: yellow;
             margin-top: 40px;
             text-align: right;
+            /* height: 100vh; */
         }
 
         .one {
             background: blue;
             color: white;
             text-align: left;
-            position: static;
+            position: relative;
+            top: 200px;
+            /* bottom: 2rem;
+            left: 25%;
+            right: 50%; */
         }
 
         .two {
             background: green;
             color: white;
+            position: relative;
+            top: 10rem;
+            /* bottom: 50%; */
         }
 
-        .span {
+        span {
             background: pink;
             font-size: 20px;
             color: #222;
